@@ -8,8 +8,9 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="MvcJavaFx.jar" size="3239" download="eager" />
+    <jar href="MvcJavaFx.jar" size="6594" download="eager" />
     <jar href="lib/jfoenix-8.0.4.jar" size="2487326" download="eager" />
+    <jar href="lib/mariadb-java-client-2.2.4-sources.jar" size="600789" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="MvcJavaFx" >
     <param name="requiredFXVersion" value="8.0+"/>

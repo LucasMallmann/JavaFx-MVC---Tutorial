@@ -9,7 +9,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="378.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mvcjavafx.controller.FXMLAnchorPaneCadastrosClientesController">
+<AnchorPane id="AnchorPane" prefHeight="378.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="mvcjavafx.controller.FXMLAnchorPaneCadastrosClientesController">
     <stylesheets>
         <URL value="@fxmlanchorpanecadastrosclientes.css" />
     </stylesheets>
@@ -31,7 +31,7 @@
             </AnchorPane>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
                <children>
-                  <Label layoutX="79.0" layoutY="14.0" text="Detalhes do Cliente">
+                  <Label layoutX="91.0" layoutY="14.0" text="Detalhes do Cliente">
                      <font>
                         <Font name="System Bold" size="16.0" />
                      </font>
@@ -60,7 +60,7 @@
                   </GridPane>
                   <Group AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0">
                      <children>
-                        <JFXButton fx:id="botaoInserir" layoutX="37.0" layoutY="296.0" prefHeight="32.0" prefWidth="77.0" styleClass="btn" stylesheets="@fxmlanchorpanecadastrosclientes.css" text="Inserir" />
+                        <JFXButton fx:id="botaoInserir" layoutX="37.0" layoutY="296.0" prefHeight="32.0" prefWidth="77.0" styleClass="btn" text="Inserir" />
                         <JFXButton fx:id="botaoAlterar" layoutX="125.0" layoutY="296.0" prefHeight="32.0" prefWidth="77.0" styleClass="btn" text="Alterar" />
                         <JFXButton fx:id="botaoRemover" layoutX="218.0" layoutY="296.0" prefHeight="32.0" prefWidth="77.0" styleClass="btn" text="Remover" />
                      </children>
